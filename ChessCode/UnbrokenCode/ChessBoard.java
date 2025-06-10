@@ -32,9 +32,9 @@ public class ChessBoard extends JFrame implements ActionListener {
 			}
 		}
 
-		// Add the p(r)awns
+		// Add the pawns
 		for (int x = 0; x < 8; x++) {
-			pieces[x] = new Prawn(squares[x][6]);
+			pieces[x] = new Pawn(squares[x][6]);
 		}
 
 		// Add the Rooks

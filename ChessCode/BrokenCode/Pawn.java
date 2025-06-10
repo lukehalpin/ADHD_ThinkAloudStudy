@@ -3,13 +3,14 @@
  * @author Joe Finney, Luke Halpin
  */
 
-public class Rook extends ChessPiece {
-	public Rook(ChessSquare s) {
-		super("pieces/Rook.jpg", s);
+public class Pawn extends ChessPiece {
+	public Pawn(ChessSquare s) {
+		super("pieces/Pawn.jpg", s);
 	}
 
 	public boolean canMoveTo(ChessSquare s) {
-		if (square.xLocation == s.xLocation || square.yLocation == s.yLocation)
+		if (square.xLocation == s.xLocation
+				&& (square.yLocation == s.yLocation + 1 || (square.yLocation == 6 && s.yLocation = 4)))
 			return true;
 
 		return false;
@@ -21,4 +22,5 @@ public class Rook extends ChessPiece {
 		}
 		return false;
 	}
+
 }
