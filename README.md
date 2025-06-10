@@ -3,6 +3,8 @@ These are the materials used in my Think Aloud study conducted in 2024 for any i
 
 I ask that if you use these materials in replication or in a similar study that you cite both this github and the corresponding paper found at xxxx
 
+If you have any issues using the materials please contact me at l.halpin@lancaster.ac.uk or at luke@lukehalpin.co.uk
+
 The code is in a broken and unbroken state, with the unbroken code being in a state where it should be able to run normally without edits. 
 
 The broken code contains two logic and two compilation errors. The errors are as follows:
