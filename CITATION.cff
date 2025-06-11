@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or included materials, please cite them as below, including the paper linked in the repository README file."
+authors:
+- family-names: "Halpin"
+  given-names: "Luke"
+  orcid: "https://orcid.org/0009-0001-8878-2996"
+- family-names: "Benachour"
+  given-names: "Phillip"
+  orcid: "https://orcid.org/0000-0001-8578-4024"
+- family-names: "Hall"
+  given-names: "Tracy"
+  orcid: "https://orcid.org/0000-0002-2728-9014"
+- family-names: "Winter"
+  given-names: "Emily"
+  orcid: "https://orcid.org/0000-0003-3314-7300"
+- family-names: "Finney"
+  given-names: "Joseph"
+  orcid: "https://orcid.org/0000-0003-0805-5375"
+title: "Example Code and Materials for an ADHD ThinkAloud Study"
+version: 2.0.4
+doi: 10.5281/zenodo.15640613
+date-released: 2025-06-11
+url: "https://github.com/lukehalpin/ADHD_ThinkAloudStudy"
